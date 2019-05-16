@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>my register pages</title>
+ 
+<style>
+p{background-color:white;}
+body{
+   background-image:url("regis.jpg");
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   background-repeat: round;
+   background-size: cover;
+   
+   
+}
+
+.button{
+ float: right;
+ background: purple;
+ color: white;
+ border-radius: 0 5px 5px 0;
+ cursor: pointer;
+ position: relative;
+ padding: 7px;
+ font-family: sans-serif;
+ border: none;
+ font-size: 54px;
+}
+.Box{
+ position: absolute;
+ top: 20%;
+ left: 5%;
+ transform: transalate(-50%,-50%);
+ width: 500px;
+ padding: 30px;
+ background: rgba(0,0,0,.8);
+ box-sizing: border-box;
+ box-shadow: 0 20px 25px rgba(0,0,0,.5);
+ border-radius: 20px;
+ 
+}
+.Box h1{
+ color: blue;
+ margin: 0 0 36px;
+ padding: 0;
+ text-align: center;
+ font-family: italic;
+}
+.Box.inputbox{
+ position: relative;
+ 
+}
+.Box.inputBox  input{
+ width: 100%;
+ padding: 10px 0;
+ font-size:1 6px;
+ color:#ffff;
+ letter-spacing: 1px;
+ margin-bottom: 30px;
+ border: none;
+ border-bottom: 1px solid purple;
+ outline: none;
+ background: transparent;
+ 
+}
+.email {
+    position: absolute;
+ letter-spacing: 1px;
+ font-size: 16px;
+ color: #fff;
+ pointer-event: none;
+ transition: 1.4s;
+}
+.Box.inputBox input: focus-lable,
+.Box.inputBox input: vaildf-lable{
+ top: -18px;
+ left: 0;
+ color: #03a9f4;
+ font-size: 12px;
+ 
+}
+.Box input[type="submit"]
+{
+ background: transparent;
+ border: 10px;
+ outline: none;
+ color: #fff;
+ background: blue;
+ padding: 20px 20px;
+ cursor: pointer;
+ border-radius: 50px 30px 50px;
+}
+.email{
+ color:white;
+}
+
+</style>
+</head>
+<body>
+<form action="insert.php"  method="post">
+<div class="box">
+<h1>register </h1>
+
+ <div class="inputbox">
+  <label class="email"  >email</label><br>
+ <input type="text"  name="email"  required="" placeholder="email" ><br>
+  <label class="email"> phone number </label><br>
+ <input type="password" name="phone_number" required="" placeholder="phone number" name="phone_number" ><br>
+  <label class="email"  >user name</label><br>
+ <input type="text"  name="user_name" required="" placeholder="user_name"  ><br>
+  <label class="email"> password </label><br>
+ <input type="password"   name="password" required="" placeholder="password"  ><br>
+
+ </div>
+ <br>
+<input type="submit" name="save" value="register">
+</form>
+
+
+
+</body>
+</html>

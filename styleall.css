@@ -1,0 +1,93 @@
+/*start nvbar*/
+.trnav
+{
+    height: 16%;
+}
+
+.navbar
+{
+    height: 100%;
+    width: 100%;
+    background-color: #0c1119;
+    color: #fff;
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navbar .logo {
+    font-size: 32px;
+    position: relative;
+    left: 12%;
+    color: #fff;
+    font-family: Harrington; 
+}
+
+.navbar tr td a
+{
+    color: #fff;
+    font-size: 21px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navbar a:hover {
+    color: #4eab9b;
+    border-bottom: 2px solid #4eab9b;
+}
+
+/*End nevbar*/
+
+/*Strat footer*/
+
+.footer {
+    clear: both;
+    padding: 39px;
+    background: #0c1119;
+    color: rgba(255, 255, 255, 0.808);
+    text-align: left;
+    height: 131px;
+}
+
+.footer .footer-1 {
+    float: left;
+    margin-left: 9%;
+    margin-right: 5%;
+}
+
+.footer .footer-1 ul li , .site ul li{
+    list-style: none;
+}
+
+.footer  .ul-site li {
+    float: left;
+    padding: 10px;
+    margin: 6px;
+}
+
+
+.footer .site .ul-site li i {
+    background: #346ce9;
+    color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.footer .footer-1 .logofoot
+{
+    font-size: 40px;
+    position: relative;
+    left: 20%;
+    color: #fff;
+    font-family: Harrington;
+}
+
+.footer .footer-1 .site {
+    clear: both;
+}
+
+/*End footer*/

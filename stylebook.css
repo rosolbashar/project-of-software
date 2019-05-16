@@ -1,0 +1,80 @@
+body{
+   
+   margin: 0;
+   padding: 0;
+   font-family: italic;
+   background-repeat: round;   
+}
+
+.Box{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	transform: transalate(-50%,-50%);
+	width: 500px;
+	padding: 30px;
+	background: rgba(0,0,0,.8);
+	box-sizing: border-box;
+	box-shadow: 0 20px 25px rgba(10,10,0,.5);
+	border-radius: 19px;
+	margin-left: 20%;
+}
+
+.Box h1{
+	color: #ffdfdf;
+	margin: 0 0 36px;
+	padding: 19px;
+	text-align: center;
+	font size:50px;
+	font-family: sans-serif;
+}
+
+.Box .inputbox{
+	position: relative;
+	
+}
+
+.Box .inputBox  input{
+	width: 100%;
+	padding: 10px 0;
+	font-size:1 6px;
+	color:#ffff;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid purple;
+	outline: none;
+	background: transparent;
+	
+}
+
+.label {
+    position: absolute;
+	letter-spacing: 1px;
+	font-size: 20px;
+	pointer-event: none;
+	transition: 1.4s;
+	color: #ffff;
+	text-transform: capitalize;
+}
+
+.Box.inputBox.input: focus-lable,
+.Box.inputBox.input: vaildf-lable{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;	
+}
+
+.Box input[type="submit"]
+{
+	background: transparent;
+	border: 10px;
+	outline: none;
+	color: #fff;
+	background: blue;
+	padding: 20px 20px;
+	cursor: pointer;
+	border-radius: 50px 30px 50px;
+	font-size: 15px;
+}

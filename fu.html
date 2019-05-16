@@ -1,0 +1,370 @@
+<html>
+<head>
+<title>CINEMA online</title>
+	 <meta charset="utf-8">
+	 <link rel="stylesheet" href="../css/stylehome.css">
+   <link rel="stylesheet" type="text/css" href="../css/styleall.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+<style>
+ p{background-color:purpul;}
+body{
+   background-image: url(cin.jpg);
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   background-repeat: round;
+   background-size: cover;
+   
+   
+}
+input[type=text]{
+	padding: 7px;
+	border: none;
+	font-size: 20px;
+	font-family: sans-serif;
+	
+}
+button{
+	float: right;
+	background:red;
+	color: white;
+	border-radius: 20 5px 5px 20;
+	cursor: pointer;
+	position: relative;
+	padding: 20px;
+	font-family: sans-serif;
+	border: 2;
+	font-size: 50%;
+}
+.Box{
+	position: absolute;
+	top: 30%;
+	left: 5%;
+	transform: transalate(-50%,-50%);
+	width: 500px;
+	padding: 30px;
+	background: rgba(0,0,0,.8);
+	box-sizing: border-box;
+	box-shadow: 0 20px 25px rgba(10,10,0,.5);
+	border-radius: 19px;
+	
+}
+.Box h1{
+	color:blue;
+	margin: 0 0 36px;
+	padding: 19px;
+	text-align: center;
+	font size: 50px;
+	font-family: italic;
+}
+.Box.inputbox{
+	position: relative;
+	
+}
+.Box.inputBox  input{
+	width: 100%;
+	padding: 10px 0;
+	font-size:1 6px;
+	color:#ffff;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid purple;
+	outline: none;
+	background: transparent;
+	
+}
+.email {
+    position: absolute;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: #fff;
+	pointer-event: none;
+	transition: 1.4s;
+}
+.Box.inputBox.input: focus-lable,
+.Box.inputBox.input: vaildf-lable{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+	
+}
+.Box input[type="submit"]
+{
+	background: transparent;
+	border: 10px;
+	outline: none;
+	color: #fff;
+	background: blue;
+	padding: 20px 20px;
+	cursor: pointer;
+	border-radius: 50px 30px 50px;
+}
+.Box1{
+	position: absolute;
+	top: 30%;
+	left:57%;
+	transform: transalate(-50%,-50%);
+	width: 500px;
+	padding: 30px;
+	background: rgba(0,0,0,.8);
+	box-sizing: border-box;
+	box-shadow: 0 20px 25px rgba(10,10,0,.5);
+	border-radius: 19px;
+	
+}
+.Box1 h1{
+	color:blue;
+	margin: 0 0 36px;
+	padding: 19px;
+	text-align: center;
+	font size: 50px;
+	font-family: italic;
+}
+.Box1.inputbox{
+	position: relative;
+	
+}
+.Box1.inputBox  input{
+	width: 100%;
+	padding: 10px 0;
+	font-size:1 6px;
+	color:#ffff;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid purple;
+	outline: none;
+	background: transparent;
+	
+}
+.email {
+    position: absolute;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: #fff;
+	pointer-event: none;
+	transition: 1.4s;
+}
+.Box1.inputBox.input: focus-lable,
+.Box1.inputBox.input: vaildf-lable{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+	
+}
+.Box1 input[type="submit"]
+{
+	background: transparent;
+	border: 10px;
+	outline: none;
+	color: #fff;
+	background: blue;
+	padding: 20px 20px;
+	cursor: pointer;
+	border-radius: 50px 30px 50px;
+}
+
+
+
+.email{
+	color:white;
+}
+
+.Box2{
+	position:absolute;
+	top:70%;
+	left:6%;
+	transform: transalate(-50%,-50%);
+	width: 500px;
+	padding: 30px;
+	background: rgba(0,0,0,.8);
+	box-sizing: border-box;
+	box-shadow: 0 20px 25px rgba(10,10,0,.5);
+	border-radius: 19px;
+	
+}
+.Box2 h1{
+	color:blue;
+	margin: 0 0 36px;
+	padding: 19px;
+	text-align: center;
+	font size: 50px;
+	font-family: italic;
+}
+.Box2.inputbox{
+	position: relative;
+	
+}
+.Box2.inputBox  input{
+	width: 100%;
+	padding: 10px 0;
+	font-size:1 6px;
+	color:#ffff;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid purple;
+	outline: none;
+	background: transparent;
+	
+}
+.email {
+    position: absolute;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: #fff;
+	pointer-event: none;
+	transition: 1.4s;
+}
+.Box2.inputBox.input: focus-lable,
+.Box2.inputBox.input: vaildf-lable{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+	
+}
+.Box2 input[type="submit"]
+{
+	background: transparent;
+	border: 10px;
+	outline: none;
+	color: #fff;
+	background: blue;
+	padding: 20px 20px;
+	cursor: pointer;
+	border-radius: 50px 30px 50px;
+}
+.Box3{
+	position:absolute;
+	top:70%;
+	left:57%;
+	transform: transalate(-50%,-50%);
+	width: 500px;
+	padding: 30px;
+	background: rgba(0,0,0,.8);
+	box-sizing: border-box;
+	box-shadow: 0 20px 25px rgba(10,10,0,.5);
+	border-radius: 19px;
+	
+}
+.Box3 h1{
+	color:blue;
+	margin: 0 0 36px;
+	padding: 19px;
+	text-align: center;
+	font size: 50px;
+	font-family: italic;
+}
+.Box3.inputbox{
+	position: relative;
+	
+}
+.Box3.inputBox  input{
+	width: 100%;
+	padding: 10px 0;
+	font-size:1 6px;
+	color:#ffff;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid purple;
+	outline: none;
+	background: transparent;
+	
+}
+.email {
+    position: absolute;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: #fff;
+	pointer-event: none;
+	transition: 1.4s;
+}
+.Box3.inputBox.input: focus-lable,
+.Box3.inputBox.input: vaildf-lable{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+	
+}
+.Box3 input[type="submit"]
+{
+	background: transparent;
+	border: 10px;
+	outline: none;
+	color: #fff;
+	background: blue;
+	padding: 20px 20px;
+	cursor: pointer;
+	border-radius: 50px 30px 50px;
+}
+
+
+
+	
+ </style>
+</head>
+<body background="flower.jpg">
+	<table border="0" class="table" cellpadding="0" cellspacing="0">
+
+	      <!-- strat navbar -->
+
+          		<tr class="trnav">
+                            <td colspan="2" >
+                                  <table class="navbar">
+                                         <tr>
+                                              <td class="logo">
+                                                   cin<span>ema</span> 
+                                              </td>
+                                              <td width="30%"></td>
+                                              <td><a href="#">Home</a></td>
+                                              <td><a href="films.html"> films</a></td>
+                                              <td><a name="#down"> Contact us</a></td> 
+                                              											  
+                                              <td><a href="booking.html"> Orders</a></td>
+                                              <td><a href="login.html" class="fas fa-user-circle"></a></td>
+                                              <td class="search"><input type="search" placeholder="search..."> &nbsp;<i class="fa fa-search"></i></td>
+                                             <td><a href="admin.html">admin</a></td>
+                                        </tr>
+                                  </table><br><br><br><br>
+
+<font face="Time New Roman" align="right" color="red" align="right" size="6" dir="rtl" ><center>
+<marquee><h2><mark> welcome to our cinema</h2></mark></center></marquee></font>
+<center>
+<table width="400" height="400"  border ="0"  cellpadding="20" cellspacing="20" >
+
+ <form action="search.html" method="post">
+<tr>
+<td class="box" > <center> <p  style=font-size:20pt><h1><mark> search costomer </h1><input type="submit" style=font-size:25pt value="  press  "></center></td>
+</form>
+</tr>
+</form>
+ <form action="show.php" method="post">
+<tr>
+<td class="box1" ><center><p style=font-size:20pt><h1><mark> show all customer </h1><input type="submit"style=font-size:25pt  value="  press  "></center></td>
+</tr>
+</form>
+<tr>
+ 
+ <form action="show2.php" method="post">
+<td class="box2" ><center><p style=font-size:25p><h1><mark> show all booking film </h1><input type="submit" style=font-size:25pt value=" press "></center></td>
+</tr>
+</form>
+<form action="delet2.html" method="post">
+<td class="box3" ><center><p style=font-size:25p><h1><mark>   delete booking film </h1><input type="submit" style=font-size:25pt value=" press "></center></td>
+</tr>
+</form>
+</center>
+</table>
+</body>
+</body>
+</html>
